@@ -5,6 +5,7 @@ qtsensors-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Update debian/watch for the new upstream tarballs naming scheme.
   * Bump Qt build-dependencies to 5.10.1.
   * Add support for the nodoc build profile.
+  * Use dh_auto_configure provided by debhelper (closes: #883964).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Feb 2018 12:16:23 +0300
 
