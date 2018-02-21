@@ -1,6 +1,5 @@
-qtsensors-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.10.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/watch for the new upstream tarballs naming scheme.
   * Bump Qt build-dependencies to 5.10.1.
@@ -11,7 +10,7 @@ qtsensors-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.3, no changes needed.
   * Use https URL for the copyright Format field.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Feb 2018 12:16:23 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 21 Feb 2018 13:09:28 +0300
 
 qtsensors-opensource-src (5.9.2-2) unstable; urgency=medium
 
