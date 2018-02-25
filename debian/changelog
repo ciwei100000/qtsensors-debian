@@ -1,5 +1,7 @@
 qtsensors-opensource-src (5.10.1-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Run tests with GLX extension available, to make them pass on arm*.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Feb 2018 21:31:31 +0300
 
