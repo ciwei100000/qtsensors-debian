@@ -2,6 +2,7 @@ qtsensors-opensource-src (5.11.0-1) UNRELEASED; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
+  * Bump Standards-version to 4.1.4, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Jun 2018 22:33:20 -0500
 
