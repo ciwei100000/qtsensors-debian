@@ -7,6 +7,7 @@ qtsensors-opensource-src (5.11.0-1) UNRELEASED; urgency=medium
   * Update copyright for new files and add my name to the debian/
     copyright.
   * Bump build dependencies to 5.11.0, no changes needed.
+  * Update symbols from build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Jun 2018 22:33:20 -0500
 
