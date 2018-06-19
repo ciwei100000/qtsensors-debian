@@ -1,5 +1,8 @@
 qtsensors-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
+  * New changelog entry.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jun 2018 18:24:28 -0500
 
 qtsensors-opensource-src (5.11.0-1) experimental; urgency=medium
