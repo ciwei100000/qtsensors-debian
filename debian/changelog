@@ -1,5 +1,7 @@
 qtsensors-opensource-src (5.10.1-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Fix repository name in Vcs-* fields.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 20 Jun 2018 23:52:56 +0300
 
