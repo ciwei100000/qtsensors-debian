@@ -3,6 +3,7 @@ qtsensors-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Build-depend on just qtdeclarative5-dev, not -private-dev.
+  * Bump Qt build-dependencies to 5.12.2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Mar 2019 11:30:18 +0300
 
