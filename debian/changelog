@@ -6,6 +6,7 @@ qtsensors-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.2.
   * Drop obsolete hack to fix wrong path in pkgconfig files.
   * Add Qt_5.12 version tag to debian/libqt5sensors5.symbols.
+  * Update Homepage URL.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Mar 2019 11:30:18 +0300
 
