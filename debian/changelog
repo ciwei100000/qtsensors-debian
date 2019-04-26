@@ -5,6 +5,7 @@ qtsensors-opensource-src (5.12.3-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.3.
   * Add Build-Depends-Package field to debian/libqt5sensors5.symbols.
   * Fix path of the symlink in /usr/share/doc.
+  * Add a doc-base file for the qtsensors5-doc-html package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Apr 2019 21:18:57 +0300
 
