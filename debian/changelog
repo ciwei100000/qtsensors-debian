@@ -1,13 +1,12 @@
-qtsensors-opensource-src (5.12.3-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.12.3-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.3.
   * Add Build-Depends-Package field to debian/libqt5sensors5.symbols.
   * Fix path of the symlink in /usr/share/doc.
   * Add a doc-base file for the qtsensors5-doc-html package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Apr 2019 21:18:57 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 27 Apr 2019 11:02:51 +0300
 
 qtsensors-opensource-src (5.12.2-1) experimental; urgency=medium
 
