@@ -1,5 +1,6 @@
 qtsensors-opensource-src (5.12.3-2) UNRELEASED; urgency=medium
 
+  * Append *.html to doc-base Files. 
 
  -- Scarlett Moore <sgmoore@kde.org>  Mon, 06 May 2019 07:45:36 -0700
 

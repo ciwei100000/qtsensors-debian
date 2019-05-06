@@ -6,4 +6,4 @@ Section: Programming/C++
 
 Format: HTML
 Index: /usr/share/doc/qtsensors5-doc-html/html/qtsensors/qtsensors-index.html
-Files: /usr/share/doc/qtsensors5-doc-html/html/qtsensors/
+Files: /usr/share/doc/qtsensors5-doc-html/html/qtsensors/*.html
