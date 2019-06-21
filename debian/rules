@@ -23,7 +23,8 @@ override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
 
 override_dh_auto_test-arch:
-	xvfb-run -a -s "-screen 0 1024x768x24 +extension GLX" dh_auto_test -- -Ctests/auto \
+	dh_auto_test -- -Ctests/auto \
+		TESTRUNNER='xvfb-run -a -s "-screen 0 1024x768x24 +extension GLX"' \
 		QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
 
 # Do not attempt to run tests during indep build
