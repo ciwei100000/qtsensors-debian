@@ -1,4 +1,4 @@
-qtsensors-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.12.4-1) experimental; urgency=medium
 
   [ Scarlett Moore ]
   * Append *.html to doc-base Files.
@@ -9,7 +9,7 @@ qtsensors-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Add support for nocheck build profile.
 
- -- Scarlett Moore <sgmoore@kde.org>  Mon, 06 May 2019 07:45:36 -0700
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 21 Jun 2019 18:10:21 +0300
 
 qtsensors-opensource-src (5.12.3-1) experimental; urgency=medium
 
