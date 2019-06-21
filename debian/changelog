@@ -6,6 +6,7 @@ qtsensors-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.4.
+  * Update debian/copyright.
 
  -- Scarlett Moore <sgmoore@kde.org>  Mon, 06 May 2019 07:45:36 -0700
 
