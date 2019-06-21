@@ -1,7 +1,7 @@
 qtsensors-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
 
   [ Scarlett Moore ]
-  * Append *.html to doc-base Files. 
+  * Append *.html to doc-base Files.
 
   [ Dmitry Shachnev ]
   * New upstream release.
