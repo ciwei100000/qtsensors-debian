@@ -48,8 +48,8 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libqt5sensors5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
-Breaks: qtsensors5-doc-html (<< 5.12.4-1~)
-Replaces: qtsensors5-doc-html (<< 5.12.4-1~)
+Breaks: qtsensors5-doc-html (<< 5.12.4-2~)
+Replaces: qtsensors5-doc-html (<< 5.12.4-2~)
 Description: Qt 5 Sensors development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -63,8 +63,8 @@ Multi-Arch: same
 Section: x11
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: qtsensors5-doc-html (<< 5.12.4-1~)
-Replaces: qtsensors5-doc-html (<< 5.12.4-1~)
+Breaks: qtsensors5-doc-html (<< 5.12.4-2~)
+Replaces: qtsensors5-doc-html (<< 5.12.4-2~)
 Description: Qt 5 sensors examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
