@@ -3,15 +3,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
-DEB_HOST_ARCH_OS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
-
 export QT_SELECT := qt5
-
-# Retrieve packages that have a .install-common file
-pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.install-common))
-# Retrieve packages that have a .install-$DEB_HOST_ARCH_OS file
-pkgs_with_os = $(patsubst debian/%.install-$(DEB_HOST_ARCH_OS),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH_OS)))
 
 %:
 	dh $@ --with pkgkde_symbolshelper
@@ -32,15 +24,3 @@ override_dh_auto_test-indep:
 
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
-
-override_dh_install:
-	# Now flush all the .install-* files as .install files.
-	set -e; for pkg in $(pkgs_with_common); do \
-		cat debian/$$pkg.install-common >> debian/$$pkg.install ; \
-	done
-
-	set -e; for pkg in $(pkgs_with_os); do \
-		cat debian/$$pkg.install-$(DEB_HOST_ARCH_OS) >> debian/$$pkg.install ; \
-	done
-
-	dh_install --fail-missing
