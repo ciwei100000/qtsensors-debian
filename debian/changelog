@@ -5,6 +5,7 @@ qtsensors-opensource-src (5.12.5-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.5.
   * Simplify debian/rules by using not-installed and clean files.
   * Use the standard debhelper mechanism for OS-specific install files.
+  * Bump Standards-Version to 4.4.0, no changes needed.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 09 Aug 2019 17:53:50 -0700
 
