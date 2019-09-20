@@ -105,4 +105,3 @@ usr/lib/*/libQt5Sensors.prl
 usr/lib/*/libQt5Sensors.so
 usr/lib/*/pkgconfig/*
 usr/lib/*/qt5/mkspecs/modules/*
-usr/share/qt5/doc/qtsensors/qtsensors.tags
