@@ -30,17 +30,6 @@ override_dh_auto_test-arch:
 # Do not attempt to run tests during indep build
 override_dh_auto_test-indep:
 
-override_dh_auto_install-arch:
-	dh_auto_install
-
-	# Remove libtool-like files
-	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
-
-	# Remove private headers
-	rm -fv debian/tmp/usr/include/*/qt5/QtSensors/*/QtSensors/private/*
-	# ... and other private stuff
-	rm -fv debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_sensors_private.pri
-
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
@@ -55,20 +44,3 @@ override_dh_install:
 	done
 
 	dh_install --fail-missing
-
-override_dh_auto_clean:
-	dh_auto_clean
-	rm -rf doc/qtsensors doc/qtsensors.qch
-	rm -f examples/sensors/grue/detect_grue
-
-override_dh_clean:
-	dh_clean
-
-	# Don't forget to remove the .install files we generated.
-	for pkg in $(pkgs_with_common); do \
-		rm -f debian/$$pkg.install ; \
-	done
-
-	for pkg in $(pkgs_with_os); do \
-		rm -f debian/$$pkg.install ; \
-	done

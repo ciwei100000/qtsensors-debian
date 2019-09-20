@@ -1,0 +1,4 @@
+debian/libqt5sensors5.install
+doc/qtsensors.qch
+doc/qtsensors/
+examples/sensors/grue/detect_grue

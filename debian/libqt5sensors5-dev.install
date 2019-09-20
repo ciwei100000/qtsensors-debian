@@ -103,5 +103,5 @@ usr/include/*/qt5/QtSensors/qtsensorsversion.h
 usr/lib/*/cmake/*
 usr/lib/*/libQt5Sensors.prl
 usr/lib/*/libQt5Sensors.so
-usr/lib/*/pkgconfig/*
-usr/lib/*/qt5/mkspecs/modules/*
+usr/lib/*/pkgconfig/Qt5Sensors.pc
+usr/lib/*/qt5/mkspecs/modules/qt_lib_sensors.pri
