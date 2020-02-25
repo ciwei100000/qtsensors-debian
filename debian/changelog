@@ -4,6 +4,7 @@ qtsensors-opensource-src (5.14.1-1) UNRELEASED; urgency=medium
   * Fix FTBFS on !linux (closes: #944031). Thanks Samuel Thibault!
   * New upstream release.
   * Bump Qt build-dependencies to 5.14.1.
+  * Update to debhelper compat level 12, use the new syntax.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Nov 2019 21:12:07 +0300
 
