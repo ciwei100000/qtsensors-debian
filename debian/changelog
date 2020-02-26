@@ -5,6 +5,7 @@ qtsensors-opensource-src (5.14.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.14.1.
   * Update to debhelper compat level 12, use the new syntax.
+  * Add Qt_5.13 and Qt_5.14 tags to debian/libqt5sensors5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Nov 2019 21:12:07 +0300
 
