@@ -27,6 +27,7 @@ override_dh_auto_install-arch:
 
 	# Reproducible builds: remove build paths from prl files.
 	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5Sensors.prl
+	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/sensors/grue/libgruesensor.prl
 
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
