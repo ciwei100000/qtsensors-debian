@@ -3,6 +3,7 @@ qtsensors-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.1.
+  * Update to debhelper compat level 13.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Sep 2020 14:10:18 +0300
 
