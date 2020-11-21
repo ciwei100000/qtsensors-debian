@@ -7,6 +7,8 @@ qtsensors-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.2.
+  * Build-depend only on the needed documentation tools, not on the large
+    qttools5-dev-tools package.
 
  -- Debian Janitor <janitor@jelmer.uk>  Sat, 31 Oct 2020 06:09:45 -0000
 
