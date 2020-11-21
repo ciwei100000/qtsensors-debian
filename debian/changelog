@@ -1,4 +1,4 @@
-qtsensors-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.15.2-1) experimental; urgency=medium
 
   [ Debian Janitor ]
   * Apply multi-arch hints.
@@ -10,7 +10,7 @@ qtsensors-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
   * Build-depend only on the needed documentation tools, not on the large
     qttools5-dev-tools package.
 
- -- Debian Janitor <janitor@jelmer.uk>  Sat, 31 Oct 2020 06:09:45 -0000
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 21 Nov 2020 20:42:52 +0300
 
 qtsensors-opensource-src (5.15.1-2) unstable; urgency=medium
 
