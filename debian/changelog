@@ -1,3 +1,41 @@
+qtsensors-opensource-src (5.15.2-2) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.5.1, no changes needed.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 11 Dec 2020 11:32:16 +0300
+
+qtsensors-opensource-src (5.15.2-1) experimental; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + qtsensors5-doc, qtsensors5-doc-html: Add Multi-Arch: foreign.
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.15.2.
+  * Build-depend only on the needed documentation tools, not on the large
+    qttools5-dev-tools package.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 21 Nov 2020 20:42:52 +0300
+
+qtsensors-opensource-src (5.15.1-2) unstable; urgency=medium
+
+  * Add Qt_5.15 version tag to debian/libqt5sensors5.symbols.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 28 Oct 2020 21:54:00 +0300
+
+qtsensors-opensource-src (5.15.1-1) experimental; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.15.1.
+  * Update to debhelper compat level 13.
+    - Use ${DEB_HOST_MULTIARCH} substitution in .install files.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 11 Sep 2020 12:27:16 -0300
+
 qtsensors-opensource-src (5.14.2-2-c1) unstable; urgency=medium
 
   * Removed symbols files
